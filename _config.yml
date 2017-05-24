@@ -1,0 +1,21 @@
+# Site settings
+title: Learning To Code!
+header-img: img/home-bg.png
+email: iamtraviscole@gmail.com
+copyright_name: iamtraviscole
+description: > # this means to ignore newlines until "baseurl:"
+  Ruby, Rails, JavaScript, React, and more
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  iamtraviscole
+learn_profile: iamtraviscole
+email_username: iamtraviscole@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
