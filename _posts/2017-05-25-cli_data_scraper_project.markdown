@@ -13,7 +13,7 @@ It sounds pretty simple, but it took me longer than I was expecting to complete 
 
 Overall though, I feel like I learned a lot and It's pretty awesome how much more I can do now than I could just a month ago. I'm looking forward to getting my code reviewed to see what I can improve on!
 
-## Some Code
+# Some Code
 
 I used three classes. A CLI class, a Scraper class, and a Player class. 
 
