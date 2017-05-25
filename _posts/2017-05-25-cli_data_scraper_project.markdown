@@ -83,7 +83,9 @@ def list_leaders
     puts "------------------------------"
 
   end
-
+```
+	
+```
   def player_details
     input = ""
     until input == "exit"
