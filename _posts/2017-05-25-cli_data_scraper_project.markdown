@@ -41,7 +41,7 @@ def self.scrape_leaders(url)
     leaders[:points] = leader_doc.css("div#leaders_points .first_place .value").first.text.strip
 
     leaders
-  end
+end
 ```
 
 It also scrapes a url that takes you to a page with more information about those players. I use this URL for each of the players to initialize new players using my Player class and then set their name, weight, height, etc. as attributes by scraping that URL.
@@ -51,7 +51,7 @@ def make_players
     Player.new("#{@leaders[0][:goal_leader_url]}")
     Player.new("#{@leaders[0][:assist_leader_url]}")
     Player.new("#{@leaders[0][:point_leader_url]}")
-  end
+end
 ```
 
 ```
@@ -82,28 +82,28 @@ def list_leaders
     puts "Points: #{@leaders[0][:point_leader_name]} - #{@leaders[0][:points]}"
     puts "------------------------------"
 
-  end
+end
 ```
 	
 ```
-  def player_details
-    input = ""
-    until input == "exit"
-      puts "Enter one of above player's full name for more information about that player or exit"
-      input = gets.chomp.gsub(" ", "").downcase
-      if playerchoice = Player.all.detect {|player| player.downcase_name == input}
-        puts "------------------------------"
-        puts "#{playerchoice.name}"
-        puts "------------------------------"
-        puts "Height: #{playerchoice.height}"
-        puts "Weight: #{playerchoice.weight}"
-        puts "Born in: #{playerchoice.birthyear}"
-        puts "------------------------------"
-      elsif input == "exit"
-        bye
-      else
-        puts "Invalid name"
-      end
-    end
-  end
-	```
+def player_details
+	input = ""
+	until input == "exit"
+		puts "Enter one of above player's full name for more information about that player or exit"
+		input = gets.chomp.gsub(" ", "").downcase
+		if playerchoice = Player.all.detect {|player| player.downcase_name == input}
+			puts "------------------------------"
+			puts "#{playerchoice.name}"
+			puts "------------------------------"
+			puts "Height: #{playerchoice.height}"
+			puts "Weight: #{playerchoice.weight}"
+			puts "Born in: #{playerchoice.birthyear}"
+			puts "------------------------------"
+		elsif input == "exit"
+			bye
+		else
+			puts "Invalid name"
+		end
+	end
+end
+```
