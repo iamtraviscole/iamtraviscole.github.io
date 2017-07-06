@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Why I'm learning software development
-date:   2017-05-24 23:04:30 +0000
+title:  "Why I'm learning web development"
+date:   2017-05-24 19:04:31 -0400
 ---
 
 
