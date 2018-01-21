@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  CLI Data Scraper Project
-date:   2017-05-24 20:02:04 -0400
+title:      "CLI Data Scraper Project"
+date:       2017-05-24 20:02:04 -0400
+permalink:  cli_data_scraper_project
 ---
 
 
@@ -13,7 +14,7 @@ It sounds pretty simple, but it took me longer than I was expecting to complete 
 
 Overall though, I feel like I learned a lot and It's pretty awesome how much more I can do now than I could just a month ago. I'm looking forward to getting my code reviewed to see what I can improve on!
 
-### Some Code
+### Some Details
 
 I used three classes. A CLI class, a Scraper class, and a Player class. 
 
