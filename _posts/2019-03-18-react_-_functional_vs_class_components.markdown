@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "React - functional vs class components"
-date:       2019-03-19 03:47:32 +0000
+date:       2019-03-18 23:47:33 -0400
 permalink:  react_-_functional_vs_class_components
 ---
 
 
 Functional components vs. class components. What's the difference?
 
-### Functional components
+**Functional components**
 
 Functional components are just simple javascript functions that return JSX.  These components typically don't have their own state and they receive data via an optional 'props' object as an argument. Here's an example:
 
@@ -24,7 +24,7 @@ const SomeButton = (props) => {
 export default SomeButton
 ```
 
-### Class components
+**Class components**
 
 Class components are JavaScript classes that extend React's Component class. This gives you access to some extra features compared to functional components.
 
